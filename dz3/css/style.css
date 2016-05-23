@@ -2,52 +2,55 @@
 	margin: 0;
 	padding: 0;
 }
-/*body{
-	font-family: verdana;
-}*/
-header{
-	margin: 40px 50px;
-
-	
+body{
+	margin: 0px 90px;
 }
+/*HEADER*/
+header{
+	margin: 20px 50px;
+}
+
 .menu {
-	margin: 40px 0;
+	margin-top:  10px;
 	width: 973px;
 	height: 40px;
-	/*background-color: #575656*/
 	background-image: url(../img/menu_pan.png);
 }
 
 .menu li{
 	display: inline-block;
-	width: 100px;
-	margin: 10px 20px;
-	float: left;
+	width: 101px;	
 	font-family: verdana;
 	font-size: 13px;
-	color: white;
 	text-shadow: 1px 1px #383838;
+	padding: 10px 20px;	
 }
 
- .menu li:nth-child(2){
+.menu  a{
+	color:white;
 	width: 101px;
-	height: 20px;
-	margin: 0;
-	padding: 10px 20px;
+	height: 40px;
+	text-decoration: none;
+	margin:-10px 20px;
+	
+}
+
+ .menu a:active{
+ 	display: block;
+	width: 101px;
+	height: 40px;
+	padding: 10px 20px;	
 	background-image: url(../img/bg_tov.png);
 	background-repeat: no-repeat;
-	text-shadow: 1px 1px #383838;
-	
-
 }
+/*SIDEBAR*/
 
 .sidebar{
 	width: 240px;
-	height: 240px;
+	height: 245px;
 	margin: 0 50px;
 	border: 1px solid #c8c8c8;
-	float: left;
-	clear: left;
+	float: left;	
 }
 
 .sidebar li{
@@ -60,15 +63,33 @@ header{
 	padding: 10px  40px;
 
 }
+.sidebar a{
+	color:#656363;
+	text-decoration: none;
+	display: block;
+	height: 10px;
+	margin:-10px -40px;
+	padding-top: 10px;
+	padding-left: 25px;
+
+}
+.sidebar a:active {
+	display: block;
+	width: 200px;
+	height: 30px;
+	padding-left: 40px;
+	color: #2c2c2c;
+	background-color: #f9f9f9;
+}
 
 li:last-child{
 	border-bottom: 0px solid #c8c8c8;
 }
-.sidebar li:nth-child(3) {
-	padding-left: 60px;
-	color: #2c2c2c;
-	background-color: #f9f9f9;
+.sidebar li:last-child a:active{
+	border-bottom: 1px solid #c8c8c8;
 }
+/*CONTENT*/
+
 .content{
 	width: 680px;
 	margin: 0 340px;	
@@ -80,7 +101,7 @@ li:last-child{
 width: 500px;
 height: 307px;
 margin: 23px 88px;
-/*padding-left: 70px;*/
+
 }
 .text{
 	margin: 40px 25px;
@@ -88,6 +109,7 @@ margin: 23px 88px;
 	font-size: 15px;
 	color: #484848;
 }
+/*FOOTER*/
 .footer-menu{
 	margin: 40px 50px;
 	width: 973px;
@@ -98,18 +120,22 @@ margin: 23px 88px;
 .footer-menu li{
 	display: inline-block;
 	width: 100px;
-	margin: 10px 20px;
-	float: left;
+	margin: 10px 15px;
 	font-family: "Myriad Pro";
 	font-size: 15px;
 	color: #5c5c5c;
 }
-.footer-menu li:nth-child(2){
+.footer-menu a{
+	color:#444444;
+	text-decoration: none;
+}
+.footer-menu a:active{
 	text-decoration: underline;
 }
 .footer-menu li:last-child{
 	width:170px;
-	margin: 10px;
-	float: right;
+	text-align: right;
 	display: inline-block;
+	margin-top:8px;
+	margin-left: 190px;
 }
