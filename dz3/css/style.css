@@ -97,14 +97,13 @@ li:last-child{
 .content{
 	width: 690px;
     margin: 0px 340px;	
-		
 }
 .border{
 	border: 1px solid #c8c8c8;
     margin: 0 40px;
     margin-right: 0;
     width: 640px
-}
+ }
 .content .img{
 	width: 500px;
 	height: 307px;
