@@ -95,14 +95,15 @@ li:last-child{
 /*CONTENT*/
 
 .content{
-	margin: 0px 340px; 
-	width: 100%;
-	height: 100%;	
+	width: 690px;
+    margin: 0px 340px;	
+		
 }
 .border{
 	border: 1px solid #c8c8c8;
-	margin: 0 40px;
-	margin-right: 0;
+    margin: 0 40px;
+    margin-right: 0;
+    width: 640px
 }
 .content .img{
 	width: 500px;
